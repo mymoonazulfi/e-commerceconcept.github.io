@@ -1,0 +1,98 @@
+*{padding: 0;margin: 0;}
+
+/*nav-bar*/
+.add-to-cart-navbar-brand{padding-top: 20px; padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 60px; 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+   }
+
+   /*Logo*/
+.amazon-logo{
+    width: 200px;
+    margin-left: -180px;
+    }
+/*check-out*/
+    .check-out{font-family:Arial;
+        font-size: 25px;
+       
+        color: rgb(9, 14, 114);
+        text-decoration: none;
+       }   
+
+       .container{display: flex;justify-content: space-around;}
+
+       .list-of-items{margin-top:30px}
+
+       .add-to-quantity{display: flex;margin-top:30px;margin-left: 20px;}
+       .lock-icon{margin-right: -300px;}
+
+.update-delete-button{display: flex;}        
+
+.add-to-quantity-image{max-width: 200px;}
+
+.product-heading {font-size: 25px;color: rgb(0, 77, 77);
+    text-decoration: none;margin-left:30px;}
+.update {font-size: 25px;color: rgb(3, 45, 130);
+    text-decoration: none;padding-right: 5px;margin: 5px;}
+.delete{font-size: 25px;color: rgb(3, 45, 130);
+    text-decoration: none;margin: 5px;}
+
+    .name-of-product{color: black;margin: 5px;}
+
+    .price{color: black;margin: 5px;}
+
+
+   
+    .calculating-quantity-of-items{border-radius: 4px; 
+        border-style:solid;
+        border-width: 1px;
+        border-color: rgb(167, 165, 165);
+        width: 890px;
+        width: 530px;
+        height: 570px;margin-top:147px;
+       
+        }
+        .Items-total{margin-top: 20px;}
+
+        
+
+        .item-and-calculation{font-size: 25px;padding: 10px;display: flex;justify-content: space-between;}
+
+        .item-and-calculation-tax{font-size: 25px;padding: 10px;display: flex;justify-content: space-between;margin-top: 15px;}
+
+
+        .item-tax{font-size: 25px;padding: 10px;}
+
+        .item-total-middle-border{border-bottom-style: solid;border-bottom-width: 1px;border-color: rgb(167, 165, 165);
+           margin-top: 15px;}
+
+           .item-total-middle-line{border-bottom-style: solid;border-bottom-width: 1px;border-color: rgb(167, 165, 165);
+            margin-top: 13px;width: 75px;margin-left: 448px;}
+
+
+        h1{margin-top: 20px;padding: 20px;}
+
+        .Order-total{margin-top:25px;color: brown;font-size: 30px;padding: 15px;display: flex;justify-content: space-between;}
+
+    .payment-method{font-size: 25px;margin-left: 15px;}
+
+    .payment-method-value{ font-size: 25px;margin-top: 17px;margin-left: 4px;}
+
+    .place-your-order-button{
+        border-radius: 40px;
+        font-size: 17px;
+        width:200px;
+        height: 50px;
+        margin-top: 20px;
+        background-color: rgb(227, 174, 13);
+        color: rgb(0, 0, 0);
+        border:none;
+        cursor: pointer;
+       }
+/*add to cart class*/
+.add-to-cart{ 
+    text-align: center;
+    }         

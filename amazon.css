@@ -1,0 +1,265 @@
+*{padding: 0;margin: 0;}
+
+/*navigation-bar-of-the-shopping-app */
+.navbar-brand{
+              display: flex;
+              justify-content: space-between;
+              padding: 20px;
+              background-color: black;
+              height: 60px; 
+              }
+              
+/*Logo-of-the-app*/
+.amazon-logo{
+            width: 200px;
+            height: 60px;
+            }
+
+/*conatiner-of-the-search-division*/
+.search-container{
+                 display: flex;
+                 justify-content: space-between;
+                 width: 580px;
+                 height: 55px;
+                 border: border-box;
+                 border-radius: 30px;
+                 background-color: rgb(255, 255, 255);
+                 padding-left: 12px;
+                 padding-right: 12px;
+                 align-items: center;
+                 }
+
+/*search-word-from-the-search-container*/
+.search{
+        font-size: 25px;
+        color: rgb(145, 147, 147);
+}
+  
+/*search-icon-image-of-from-the-search-container*/
+.search-icon-image{
+                   width: 40px;
+                  }
+
+/*return-and-order-from-the-navbar*/
+.return-order{
+              font-family:Arial;
+              font-size: 25px;
+              max-width: 180px;
+              color: azure;
+              text-decoration: none;
+             } 
+
+/*Add-to-cart*/
+.add-to-cart{
+             min-width: 100px;
+             font-family:Arial;
+             text-decoration: none;
+             }  
+
+/*image-of-the-cart-icon*/ 
+.cart-icon-image{
+                color: yellow;
+                width: 60px;
+                }  
+
+
+/*name of the cart*/
+.cart-name {
+            font-size: 24px; 
+            color: wheat;
+            margin-top: 15px;
+            margin-left: 13px;
+          }
+            
+                
+/*number-of-cart-quantity*/
+.cart-quantity{
+                     color: rgb(255, 149, 0);
+                     font-size: 22px;
+                      margin-left: 30px;
+                      margin-top:-48px;
+                     }
+/*Products-grid*/
+.products-grid{
+               display: grid;
+               grid-template-columns: auto auto auto ;
+              }
+
+/*product-container*/
+.product-container{
+                  max-width: 500px;
+                  padding-top:25px;
+                  padding-bottom: 25px;
+                  padding-left: 25px;
+                  padding-right: 25px;
+                  border-right: 1px solid rgb(231, 231, 231);
+                  border-bottom: 1px solid rgb(231, 231, 231);
+                  }
+
+.product-container .product-images:hover{
+                                        cursor: pointer;
+                                        }
+
+/*Image-of-the-product*/
+.product-images{
+                width: 450px;
+                height: 500px;
+               }
+        
+/*product headings*/           
+.product-heading-ratings-counts-price-option{
+                                            margin-top: 35px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            gap: 15px;        
+                                            }
+/*name of the product*/
+.name-of-product{
+                font-size: 19px;
+                }       
+                
+/*product-ratings*/
+.product-ratings{
+                 font-size: 28px;
+                 display: flex;
+                }
+
+/*image of ratings of the products*/          
+.rating{
+        max-width: 145px;
+        max-height: 32px;
+        padding-right:10px;
+        }
+
+   /*count-of-the-product*/     
+  .count{
+         margin-top: 6px;
+        }
+   
+
+/*price of products*/
+.priceCents{
+           font-size:25px;
+           } 
+ 
+               
+   /*options of the product*/             
+ .options{
+          border-radius: 8px;
+          max-width: 50px;
+          min-height: 30px;
+          }   
+          
+/*add to cart class*/
+.add-to-cart-quantity{ 
+            text-align: center;
+            }            
+
+/* add to cart button*/
+.add-to-cart-button{
+                    border-radius: 50px;
+                    font-size: 17px;
+                    width: 140px;
+                    height: 50px;
+                    margin-top: 15px;
+                    background-color: rgb(227, 174, 13);
+                    color: rgb(0, 0, 0);
+                    border:none;
+                    cursor: pointer;
+                    }
+
+                    
+
+@media only screen and (max-width:700px){
+          
+.navbar-brand{
+              padding-left:  5px; 
+              padding-right: 5px;
+              padding-top: 12px; 
+              background-color: black;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+             }
+
+.amazon-logo{
+            width: 80px;padding-top: 15px;
+            }
+          
+.search-bar{
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding-left: 10px;
+            width:150px;
+            min-height: 30px;
+            border-radius: 5px;
+            font-family:Arial;
+            font-size: 10px;
+            color: azure;
+            text-decoration: none;
+            }
+         
+.return-order{
+             font-family:Arial;
+             font-size: 15px;
+             max-width: 90px;
+             color: azure;
+             text-decoration: none;
+             }  
+          
+.cart-icon{
+          font-family:Arial;
+          font-size: 16px;
+          max-width: 40px;
+          color: azure;
+          color: wheat;
+          text-decoration: none;
+          padding-top: 3px;
+          margin-left: 20px;
+          }
+          
+.cart-icon-image{
+                max-width: 40px; margin-left: 0px;
+                }
+
+.products{
+          display: flex;
+          flex-direction: column;
+          padding: 15px;
+          margin-top: 30px;
+          }
+.img{ 
+    max-width: 400px; 
+    }             
+}
+
+@media only screen and (min-width: 992px) {
+  
+  .products{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 30px;
+   }
+}
+
+
+
+
+
+  
+
+
+ 
+
+
+
+
+
+
+
+        
+
+
